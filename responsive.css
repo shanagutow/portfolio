@@ -1,0 +1,37 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 549px) {
+.header__logo {
+    height: 48px;
+    max-width: 100%;
+  }
+.header__name {
+  font-weight: bold;
+  font-size: 2em;
+  color: #E91E63;
+  text-decoration: underline;
+}
+
+.header__position {
+  font-weight: 100;
+  font-weight: lighter;
+  font-size: 1em;
+  color: #E91E63;
+  text-align: right;
+}
+
+section.large {
+    display: none;
+}
+
+}
+
+@media screen and (min-width: 549px) {
+  section.small {
+    display: none;
+}
+}
